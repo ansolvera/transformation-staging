@@ -1,13 +1,18 @@
-<?php
-// require_once '../common/gtgmember/index.php';
+<? /* php 
+require_once '../common/gtgmember/index.php';
 
-// $version = filter_input(INPUT_GET, 'version');
-// $form_id = '9af8bfcb85c3650fedbf00311911d828';
+$version = filter_input(INPUT_GET, 'version');
+$form_id = '9af8bfcb85c3650fedbf00311911d828';
 
-// if ($version == 'p') {
-    // $form_id = '382852f2be4335c8f673ce9ea6c1d8a8';
-// }
-?><!DOCTYPE html>
+switch ($version) {
+    case 'p':
+        $form_id = '382852f2be4335c8f673ce9ea6c1d8a8';
+        break;
+
+    case 'g':
+        $form_id = '77fb1b201f5223a253e4c19d880b27bb';
+        break;
+} */?> <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -62,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#book-now" class="btn is-small is-hidden-for-mobile">Book Now</a>
+                <a href="https://members.howtogettheguy.com/checkout/?rid=pi2MXV" target="_blank" class="btn is-small is-hidden-for-mobile">Register Now</a>
                 <div id="hamburger" class="is-hidden-for-desktop" x-data="{ open: false }">
                     <div id="hamburger__icon" class="flex-col justify-center items-center" @click="open = true">
                         <img src="static/img/menu.svg" alt="Mobile menu icon" x-show="!open">
@@ -90,7 +95,7 @@
 
     <main id="main">
 
-        <!-- HERO SECTION -->
+        <!-- BEGIN HERO SECTION -->
         <section id="hero" class="section">
             <h1 class="sr-only">Matthew Hussey Virtual Retreat</h1>
             <div id="hero__video-wrapper">
@@ -107,8 +112,9 @@
                 <script src="https://player.vimeo.com/api/player.js"></script>
             </div>
         </section>
+        <!-- END HERO SECTION -->
 
-        <!-- PROOF SECTION -->
+        <!-- BEGIN PROOF SECTION -->
         <section id="proof" class="section py-80">
             <div class="container">
                 <div class="grid-cols-6 gap-64 place-items-center">
@@ -122,8 +128,9 @@
                 </div>
             </div>
         </section>
+        <!-- END PROOF SECTION -->
 
-        <!-- TRANSFORM YOUR LIFE -->
+        <!-- BEGIN TRANSFORM ... SECTION -->
         <section id="transform" class="section is-gray py-120">
             <div class="container">
                 <article class="prose mb-80">
@@ -166,54 +173,127 @@
                             <li class="checklist__item">And, learn a process that you can take with you after the <em>Virtual Retreat</em> and replicate over and over, to get the same transformational results on your own.</li>
                         </ul>
                     </div>
-                    <div class="callout is-dark mb-80">
-                        <h3 class="text-center mb-20">Over the course of 3 immersive days together, you'll experience:</h3>
-                        <hr/>
-                        <ul class="checklist">
-                            <li class="checklist__item"><strong>Daily LIVE coaching</strong> with me and my dad, Steve</li>
-                            <li class="checklist__item"><strong>Life-changing visualizations</strong></li>
-                            <li class="checklist__item"><strong>In-depth Q&A sessions</strong> with me</li>
-                            <li class="checklist__item"><strong>Daily light workouts</strong> with professional fitness coaches to kickstart your health goals</li>
-                            <li class="checklist__item"><strong>Powerful gratitude meditation sessions</strong> led by my brother, Stephen</li>
-                            <li class="checklist__item"><strong>Nightly LIVE magical experiences and celebrations</strong></li>
-                            <li class="checklist__item"><strong>All streamed live to your computer, in the comfort of your home.</strong></li>
-                        </ul>
-                        <hr/>
-                        <h4 class="text-xl text-center uppercase mb-20">As well as:</h4>
-                        <div id="callout__grid" class="grid-cols-2">
-                            <div class="flex-col justify-start items-start">
-                                <ul id="sub-checklist__left">
-                                    <li class="sub-checklist__item">A live preparation kickstart call on Sept. 21</li>
-                                    <li class="sub-checklist__item">A very special welcome gift</li>
-                                    <li class="sub-checklist__item">2 weeks of UNLIMITED access to the event recordings</li>
-                                </ul>
-                            </div>
-                            <div class="flex-col justify-start items-start">
-                                <ul id="sub-checklist__right">
-                                    <li class="sub-checklist__item">A comprehensive "Cheat-Sheet" FILLED with notes from the event</li>
-                                    <li class="sub-checklist__item">A private Facebook community where you will meet and keep FRIENDS for life from this experience</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <p><em><strong><u>AND</u></strong> when you choose to attend one of our transformational LIVE events in person before December 31, 2022, the full cost of your Virtual Retreat will be put toward that ticket price (ask for more details).</em> </p>
                 </article>
-                <picture>
-                    <source type="image/webp" srcset="static/img/collage.webp"/>
-                    <img id="collage" src="static/img/collage-alt.png" alt="A collage of images taken from the previous Matthew Hussey Virtual Retreat." loading="lazy">
-                </picture>
             </div>
         </section>
+        <!-- END TRANSFORM ... SECTION -->
 
-        <!-- READY TO LEVEL UP -->
+        <!-- BEGIN 3 DAY SECTION -->
+        <section id="3day" class="section py-120">
+            <div class="container">
+                <article class="prose mb-80">
+                    <div class="prose__content">
+                        <h2 class="text-center mb-80">Join Me For a Transformative 3-Day Coaching Experience</h2>
+                        <p class="text-center">Create the best version of yourself at the Matthew Hussey Virtual Retreat, September 24-26, 2021</p>
+                        <p class="text-center">Here's How We'll Transform Your Life During Our 3 Immersive Days Together</p>
+                </article>
+                <div class="schedule__grid">
+                    <div id="day1" class="schedule__grid-row">
+                        <div class="schdeule__grid-row__copy">
+                            <p class="schedule__grid-row__eyebrow">Day 1</p>
+                            <h3 class="mb-20">Discover What You Really Want</h3>
+                            <p class="schedule__grid-row__text">The Retreat is ultimately about living better. But that means something different for everybody, and this isn't a one size fits all approach. The goal on day 1 is to help you uncover what a better life looks like to YOU! Here we'll be laying the foundations for the entire process...</p>
+                            <ul class="schedule__grid__list">
+                                <li>What did you come to the Virtual Retreat for?</li>
+                                <li>What are the complaints and frustrations in your life right now?</li>
+                                <li>How to create a vision for your best life</li>
+                                <li>How to set small and large goals</li>
+                                <li>Uncovering your passions</li>
+                                <li>The power of taking consistent action</li>
+                                <li>How we spend our time</li>
+                            </ul>
+                            <p class="schedule__grid-row__text">As we figure out what we want to do with our lives and how we want to spend our time, goals are a huge part of the process.</p>
+                            <p class="schedule__grid-row__text">You'll be setting a goal for the next 3 months that will move you closer to your vision and a year-defining goal.</p>
+                            <p class="schedule__grid-row__text">To ensure you get there and love the journey, I'll also be giving you the tools to:</p>
+                            <ul class="schedule__grid__list">
+                                <li>Stop comparing yourself to others</li>
+                                <li>Be your own greatest ally</li>
+                                <li>Design specific rituals that will carry you towards your goals</li>
+                                <li>Develop your personal criteria for daily happiness</li>
+                            </ul>
+                        </div>
+                        <img class="schedule__grid-row__img" src="" alt="">
+                    </div>
+                    <div id="day1-evening" class="schedule__grid-row">
+                        <div class="schedule__grid-row__copy">
+                            <p class="schedule__grid-row__eyebrow">Day 1 Evening Magic</p>
+                            <h3 class="mb-20">Movie Night</h3>
+                            <p class="schedule__grid-row__text">Unwind at the end of Day 1 as we invite you to don your best pjs and join us for a special movie night. Set your room to be dark and cozy and don't forget popcorn and your favorite soda as we all hit play together at the same time.</p>
+                        </div>
+                        <img class="schedule__grid-row__img" src="" alt="">
+                    </div>
+                    <div id="day2" class="schedule__grid-row">
+                        <div class="schedule__grid-row__copy">
+                            <p class="schedule__grid-row__eyebrow">Day 2</p>
+                            <h3 class="mb-20">Master Your Emotions And Actions</h3>
+                            <p>On day 2 we'll be focusing on FEELING. The quality of our life is down to the quality of our thoughts and feelings. I'll be showing you how to get off of the emotional rollercoaster and take control of our emotions once and for all. I'll be guiding you by the hand on how to ...</p>
+                            <ul class="schedule__grid__list">
+                                <li>Interrupt anxiety with gratitude at any moment</li>
+                                <li>Use emotion as the key to long term motivation</li>
+                                <li>Stop relying on willpower</li>
+                                <li>Create new reference points for what you're capabale of</li>
+                                <li>Deal with pain effectively instead of avoiding it</li>
+                                <li>Make decisions from a place of huge emotional leverage</li>
+                                <li>Practice of 'proactive vulnerability'</li>
+                                <li>Letting go of the past</li>
+                                <li>Change your relationship with fear of failure and rejection</li>
+                            </ul>
+                        </div>
+                        <img class="schedule__grid-row__img" src="" alt="">
+                    </div>
+                    <div id="day2-evening" class="schedule__grid-row">
+                        <div class="schedule__grid-row__copy">
+                            <p class="schedule__grid-row__eyebrow">Day 2 Evening Magic</p>
+                            <h3 class="mb-20">The MH Virtual Jazz Club</h3>
+                            <p class="schedule__grid-row__text">We will be hosting an exclusive jazz night at the end of Day 2, where you can sit back, relax and enjoy a live performance from the incredibly talented Cherise. (2019 Jazz FM Vocalist of the Year Award and 2020 Parliamentary Jazz Awards Vocalist of the Year)</p>
+                        </div>
+                        <img class="schedule__grid-row__img" src="" alt="">
+                    </div>
+                    <div id="day3" class="schedule__grid-row">
+                        <div class="schedule__grid-row__copy">
+                            <p class="schedule__grid-row__eyebrow">Day 3</p>
+                            <h3 class="mb-20">Achieve Core Confidence</h3>
+                            <p class="schedule__grid-row__text">Now that you know how to create the vision that you want for your life, and ... the final part of the process is going to focus on <strong>creating an incredible relationship with ourselves and an unshakeable Core Confidence!</strong> Here we'll finish the process by digging deep into ...</p>
+                            <ul class="schedule__grid__list">
+                                <li>Being the Author of the Magic in Your Life</li>
+                                <li>How to Stop Waiting for Passion and Become Source of Passion</li>
+                                <li>The Three Layers of Confidence</li>
+                                <li>Dealing with Toxic Relationships</li>
+                                <li>Facing Confrontation and Conflict</li>
+                                <li>How to Reframe any Situation</li>
+                                <li>Self-Forgiveness</li>
+                                <li>Self-Trust</li>
+                                <li>The Key to Self-Love</li>
+                                <li>Core Confidence</li>
+                            </ul>
+                            <p class="schedule__grid-row__text">By joining me on this journey, you'll be starting yourself on the path to making remarkable shifts in every area of your life! My promise to you is that you'll leave this process with the tools you need to build a remarkable life, create incredible relationships, avoid overwhelm, and tap into your core confidence.</p>
+                        </div>
+                        <img class="schedule__grid-row__img" src="" alt="">
+                    </div>
+                    <div id="day3-evening" class="schedule__grid-row">
+                        <div class="schedule__grid-row__copy">
+                            <p class="schedule__grid-row__eyebrow">Day 3 Evening Magic</p>
+                            <h3 class="mb-20">1920s Party</h3>
+                            <p class="schedule__grid-row__text">Our final party is 1920's themed with an exclusive live set from the amazing DJ Jena Red! Grab a drink and be excited to get up and dance as we celebrate having gone through this tranformative process together.</p>
+                            <p class="schedule__grid-row__text">Important: Spaces are very limited this close to our event and spots are first-come, first-serve. Claim your space on the <em>Virtual Retreat</em> today before registration closes September 19th.</p>
+                        </div>
+                        <img class="schedule__grid-row__img" src="" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- END 3 DAY SECTION -->
+
+        <!-- BEGIN LEVEL UP SECTION -->
         <section id="level" class="section py-120 is-dark-gray">
             <div id="level__overlay"></div>
             <div class="container">
                 <article class="prose">
-                    <h2 class="text-center mb-80">Ready to join us? Talk to a <em>retreat</em> specialist today!</h2>
-                    <p class="text-center"><strong>Important:</strong> My team of Retreat Specialists has very limited availability this close to our event, and appointments are first-come, first-serve. <strong>Book your appointment today before registration closes September 19th.</strong></p>
+                    <h2 class="text-center mb-80">Ready to join us?</h2>
+                    <p class="text-center"><strong>Important:</strong> We have very limited availability this close to our event, and appointments are first-come, first-serve. <strong>Reserve your spot NOW before registration closes September 19th.</strong></p>
                     <div class="flex-row justify-center items-center mb-80">
-                        <a href="#book-now" class="btn is-large">Register now</a>
+                        <a href="https://members.howtogettheguy.com/checkout/?rid=pi2MXV" class="btn is-large">Claim My Ticket</a>
                     </div>
                     <div class="grid-cols-2 gap-32">
                         <div class="testimonial flex-col justify-start items-start">
@@ -252,8 +332,9 @@
                 </article>
             </div>
         </section>
+        <!-- END LEVEL UP SECTION -->
 
-        <!-- WHAT CAN YOU EXPECT -->
+        <!-- BEGIN EXPECT SECTION -->
         <section id="expect" class="section py-120">
             <div class="container">
                 <article class="prose">
@@ -285,8 +366,9 @@
                 </article>
             </div>
         </section>
+        <!-- END EXPECT SECTION -->
 
-        <!-- WHO IS THIS EVENT FOR -->
+        <!-- BEGIN WHO ... SECTION -->
         <section id="who" class="section py-120 is-gray is-hidden-for-small-screens">
             <div class="container">
                 <h2 class="text-center mb-80">Who is this event for?</h2>
@@ -338,8 +420,9 @@
                 </div>
             </div>
         </section>
+        <!-- END WHO ... SECTION -->
 
-        <!-- WHO IS THIS EVENT FOR MOBILE -->
+        <!-- BEGIN WHO ... (MOBILE) SECTION -->
         <section id="who-mobile" class="section py-120 is-hidden-for-large-screens">
             <div class="container">
                 <h2 class="text-center mb-80">Who is this event for?</h2>
@@ -381,8 +464,9 @@
                     </div>
             </div>
         </section>
+        <!-- END WHO ... (MOBILE) SECTION -->
 
-        <!-- READY TO BOOK-->
+        <!-- BEGIN READY SECTION-->
         <section id="ready" class="section py-120 is-dark-gray">
             <div id="ready__overlay"></div>
             <div class="container">
@@ -406,7 +490,7 @@
                     <div class="flex-col justify-center items-center">
                         <div class="cta flex-col justify-center items-center">
                             <h3 class="text-center mb-40">Ready to book?</h3>
-                            <p class="text-center mb-40"><strong>Registration Closes September 19th.</strong> Book Your Session with a Retreat Specialist TODAY! <em>(Sessions with our Retreat Specialists are VERY limited this close to the event)</em></p>
+                            <p class="text-center mb-40"><strong>Registration Closes September 19th.</strong> Book Your Place Now TODAY and Start Your Transformation! <em>(Places are VERY limited this close to the event)</em></p>
                             <div class="countdown--small is-hidden-for-small-screens mb-40">
                                 <div class="flex-row justify-center items-center">
                                     <div class="countdown__wrapper--small flex-col justify-center items-center">
@@ -427,14 +511,15 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="#book-now" class="btn is-large">Register Now</a>
+                            <a href="https://members.howtogettheguy.com/checkout/?rid=pi2MXV" class="btn is-large">Reserve My Spot</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- END READY SECTION -->
 
-        <!-- THE LIVES WE'VE CHANGED -->
+        <!-- BEGIN LIVES ... SECTION -->
         <section id="lives" class="section py-120">
             <div class="container">
                 <article class="prose mb-40">
@@ -447,7 +532,7 @@
                     <a href="#book-now" class="btn is-large">Register Now</a>
                 </div>
 
-                <!-- CAROUSEL COMPONENT -->
+                <!-- BEGIN CAROUSEL COMPONENT -->
                 <div class="embla">
                     <div class="embla__viewport">
                         <div class="embla__container">
@@ -526,12 +611,14 @@
                             </button>
                         </div>
                     </div>
+                    <!-- END CAROUSEL COMPONENT -->
 
                 </div>
             </div>
         </section>
+        <!-- END LIVES ... SECTION -->
 
-        <!-- BONUS -->
+        <!-- BEGIN BONUS SECTION -->
         <section id="bonus" class="section py-120 is-gray is-hidden">
             <div class="container">
                 <h2 class="text-center mb-80">Special Limited-Time Bonuses</h2>
@@ -561,18 +648,17 @@
                 </div>
             </div>
         </section>
+        <!-- END BONUS SECTION -->
 
-        <!-- ARE YOU READY TO INVEST -->
+        <!-- BEGIN INVEST SECTION -->
         <section id="invest-section" class="section py-120 is-dark-gray">
             <div id="invest__overlay"></div>
             <div class="container">
                 <div class="helmet prose mb-80">
                     <h2 class="text-6xl text-center mb-80">Are you ready to invest </br> in <span class="beige-text">yourself</span> this year?</h2>
-                    <p>I have a hand-picked team of incredible <em>Retreat</em> Specialists who are dedicated to speaking on the phone with my <em>Retreat</em> applicants.</p>
-                    <p>They are on hand to hear your story, talk you through the <em>Virtual Retreat</em> and answer any questions you may have. Even if you decide not to attend, I can promise that the call itself will be worthwhile to help you clarify your goals...</p>
-                    <p><strong>But hurry,</strong> appointments are first-come, first-serve. This Virtual Retreat is already the BIGGEST event we've ever put on and my team have <em>very limited availability</em> this close to the event.</p> 
-                    <p>If you're even remotely interested in joining our <em>Virtual Retreat</em> this year, <strong>I <em>highly</em> recommend locking in your free session with a <em>Retreat</em> Specialist TODAY while we still have spots.</strong></p>
-                    <p class="text-center"><strong>Book Your Call Now - Event Registration Closes In:</strong></p>
+                    <p>Hurry, the final places on the <em>Virtual Retreat</em> are first-come, first-serve. This is already the BIGGEST event we've ever put on and we have very limited availability this close to the event.</p>
+                    <p>If you're ready to make a change in your life and join the <em>Virtual Retreat</em> this year, I highly recommend locking in your spot TODAY while we still have space available.</p>
+                    <p class="text-center"><strong>Claim Your Spot Now - Event Registration Closes In:</strong></p>
                     <div class="countdown--small is-hidden-for-small-screens mb-40">
                         <div class="flex-row justify-center items-center">
                             <div class="countdown__wrapper flex-col justify-center items-center">
@@ -594,49 +680,30 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- FORM COMPONENT -->
-                <div id="book-now" class="callout is-transparent mb-80">
-                    <h3 class="text-center mb-40">Book Your Free Session Now By Filling Out The Form Below</h3>
-                    <form accept-charset="UTF-8" action="https://ee122.infusionsoft.com/app/form/process/<?php echo $form_id; ?>" id="inf_form_<?php echo $form_id; ?>" class="form infusion-form" method="POST">
-                        <input name="inf_form_xid" type="hidden" value="<?php echo $form_id; ?>" />
-                        <input name="inf_form_name" type="hidden" value="Virtual Retreat Optin Form&#a;(Round Robin)" />
-                        <input name="infusionsoft_version" type="hidden" value="1.70.0.375214" />
-                        <div class="infusion-field mb-10">
-                            <input id="inf_field_FirstName" name="inf_field_FirstName" placeholder="First Name *" type="text" required>
-                        </div>
-                        <div class="infusion-field mb-10">
-                            <input id="inf_field_LastName" name="inf_field_LastName" placeholder="Last Name *" type="text" required>
-                        </div>
-                        <div class="infusion-field mb-10">
-                            <input id="inf_field_Email" name="inf_field_Email" placeholder="Email *" type="text" required>
-                        </div>
-                        <div class="infusion-field mb-40">
-                            <input id="inf_field_Phone1" name="inf_field_Phone1" placeholder="Phone Number *" type="text">
-                        </div>
-                        <div class="infusion-field">
-                            <input id="inf_custom_utmadgroup" name="inf_custom_utmadgroup" placeholder="utm_adgroup" type="hidden"/>
-                        </div>
-                        <div class="infusion-field">
-                            <input id="inf_custom_utmcampaign" name="inf_custom_utmcampaign" placeholder="utm_campaign" type="hidden"/>
-                        </div>
-                        <div class="infusion-field">
-                            <input id="inf_custom_utmcontent" name="inf_custom_utmcontent" placeholder="utm_content" type="hidden"/>
-                        </div>
-                        <div class="infusion-field">
-                            <input id="inf_custom_utmmedium" name="inf_custom_utmmedium" placeholder="utm_medium" type="hidden"/>
-                        </div>
-                        <div class="infusion-field">
-                            <input id="inf_custom_utmsource" name="inf_custom_utmsource" placeholder="utm_source" type="hidden"/>
-                        </div>
-                        <div class="infusion-field">
-                            <input id="inf_custom_utmterm" name="inf_custom_utmterm" placeholder="utm_term" type="hidden"/>
-                        </div>
-                        <div class="infusion-submit">
-                            <button id="recaptcha_<?php echo $form_id; ?>" class="btn infusion-recaptcha" type="submit">Submit</button>
-                        </div>
-                        <?php //echo get_form_hidden_fields(); ?>
-                    </form>
+                <div id="pricing-card" class="callout is-transparent mb-80">
+                    <article class="prose">
+                        <h3 class="text-center">Over the course of 3 immersive days together, you'll experience:</h3>
+                            <hr class="pricing__hr"/>
+                            <ul class="pricing__checklist">
+                                <li class="pricing__checklist-item">Daily LIVE coaching with me and my dad, Steve</li>
+                                <li class="pricing__checklist-item">Life-changing visualizations</li>
+                                <li class="pricing__checklist-item">In-depth Q&A sessions with me</li>
+                                <li class="pricing__checklist-item">Daily light workouts with professional fitness coaches to kickstart your health goals</li>
+                                <li class="pricing__checklist-item">Powerful gratitude meditation sessions led by my brother, Stephen</li>
+                                <li class="pricing__checklist-item">Nightly LIVE magical experiences and celebrations</li>
+                                <li class="pricing__checklist-item">All streamed live to your computer, in the comfort of your home.</li>
+                                <li class="pricing__checklist-item"><strong>BONUS:</strong> A live preparation kickstart call on Sept. 21</li>
+                                <li class="pricing__checklist-item"><strong>BONUS:</strong> A very special (secret) welcome gift</li>
+                                <li class="pricing__checklist-item"><strong>BONUS:</strong> 2 weeks of UNLIMITED access to the event recordings</li>
+                                <li class="pricing__checklist-item"><strong>BONUS:</strong> A comprehensive "Cheat-Sheet" FILLED with notes from the event</li>
+                                <li class="pricing__checklist-item"><strong>BONUS:</strong> A private Facebook community where you will meet and keep FRIENDS for life from this experience</li>
+                            </ul>
+                            <div class="pricing__bottom">
+                                <p>CLAIM YOUR SPOT FOR <s>$4000</s></p>
+                                <p id="price" class="pricing__price">Just $795</p>
+                                <a href="https://members.howtogettheguy.com/checkout/?rid=pi2MXV" target="_blank" class="btn is-large">Claim my spot</a>
+                            </div>
+                    </article>
                 </div>
                 <div class="helmet mb-80">
                     <p class="text-center">*Appointments are first-come, first serve and limited availability this close to the event. If you don't book your call now, I can't promise my team will availability later. <strong>Lock in your appointment now before event registration closes September 19th.</strong>*</p>
@@ -677,8 +744,9 @@
                 </div>
             </div>
         </section>
+        <!-- END INVEST SECTION -->
 
-        <!-- DO YOU STILL HAVE QUESTIONS -->
+        <!-- BEGIN FAQ SECTION -->
         <section id="faq" class="section py-120">
             <div class="container">
                 <h2 class="text-center mb-80">Do you still have questions? </br> We have answers.</h2>
@@ -753,10 +821,12 @@
                         </div>
                         <p class="faq__answer" x-show.transition="open">Yes, your consultation with your <em>Retreat</em> Specialist is completely free of charge. Just be sure to enter your time zone and country dialing code correctly when making your appointment. Alternatively they can contact you via Skype or WhatsApp if you’d prefer to use an internet based calling service.</p>
                     </div>
+                </div>
             </div>
         </section>
+        <!-- END FAQ SECTION -->
 
-        <!-- FINAL CTA SECTION -->
+        <!-- BEGIN CTA SECTION -->
         <section id="final" class="section py-120 is-dark-gray">
             <div id="final__overlay"></div>
             <div class="container">
@@ -764,10 +834,10 @@
                     <h2 class="text-center">Event registration closes September 19th</h2>
                     <div class="prose-content">
                         <p>This is already the BIGGEST event we've ever hosted ...</p>
-                        <p>My team of <em>Retreat</em> Specialists is on standby to answer any questions you may have, but they have VERY limited availability this close to the event.</p>
-                        <p><strong>I can't stress enough that if you're even <em>remotely</em> interested in joining the 2021 Virtual Retreat, you need to book your free session with a Retreat Specialist today.</strong></p>
+                        <p>My team and I are preparing to make this the most life changing event we've ever put on, but due to high demand places are now VERY limited this close to the event.</p>
+                        <p>I can't stress enough that if you've been interested in joining the 2021 <em>Virtual Retreat</em>, but haven't yet made the decision to invest in yourself, then you need to book your place today.</p>
                         <p id="alert">*If you're seeing this message, this means we still have a few spots left. I can't promise if we'll have this availability again.*</p>
-                        <p><strong>Event Registration closes on September 19th.</strong> Lock in your free session with a <em>Retreat</em> Specialist now by clicking below:</p>
+                        <p><strong>Event Registration closes on September 19th.</strong> Lock in your transformation for 2021 by clicking below:</p>
                     </div>
                 </div>
                 <picture>
@@ -775,7 +845,7 @@
                     <img src="static/img/matt_signature.png" class="signature" alt="Matthew Hussey's signature" loading="lazy">
                 </picture>
                 <div class="flex-row justify-center items-center mb-40">
-                    <a href="#book-now" class="btn is-large">Register now</a>
+                    <a href="https://members.howtogettheguy.com/checkout/?rid=pi2MXV" target="_blank" class="btn is-large">Claim my spot</a>
                 </div>
                 <div>
                     <h4 class="text-xl uppercase text-center mb-20">Event Registration Closes In:</h4>
@@ -802,10 +872,11 @@
                 </div>
             </div>
         </section>
+        <!-- END CTA SECTION -->
 
     </main>
 
-    <!-- FOOTER -->
+    <!-- BEGIN FOOTER SECTION -->
     <footer id="footer" class="py-40">
         <div class="container">
             <div id="footer__wrapper">
@@ -824,12 +895,13 @@
             </div>
         </div>
     </footer>
+    <!-- END FOOTER SECTION -->
 
     <!-- INFUSIONSOFT SCRIPS -->
     <script type="text/javascript" src="https://ee122.infusionsoft.app/app/webTracking/getTrackingCode"></script>
     <script type="text/javascript" src="https://ee122.infusionsoft.com/resources/external/recaptcha/production/recaptcha.js?b=1.70.0.375214"></script>
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadInfusionRecaptchaCallback&render=explicit" async="async"></script>
-    <script type="text/javascript" src="https://ee122.infusionsoft.com/app/timezone/timezoneInputJs?xid=<?php // echo $form_id; ?>"></script>
+    <script type="text/javascript" src="https://ee122.infusionsoft.com/app/timezone/timezoneInputJs?xid=<?php echo $form_id; ?>"></script>
     <script type="text/javascript" src="https://ee122.infusionsoft.com/js/jquery/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="https://ee122.infusionsoft.app/app/webform/overwriteRefererJs"></script>
 
