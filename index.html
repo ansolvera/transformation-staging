@@ -41,28 +41,28 @@ switch ($version) {
     <header id="header" class="header shadow-2xl">
         <div class="container">
             <div id="header__top" class="flex-row justify-between items-center">
-                <a id="header__brand" href="/">
+                <a id="header__brand" href="/" class="is-hidden-for-small-screens">
                     <img src="static/img/mh-logo-white.svg" alt="Matthew Hussey logo">
                 </a>
-                <div id="countdown" class="is-hidden-for-small-screens">
+                <div id="countdown">
                     <div class="text-center">
                         <p id="countdown__heading">Act Now - Registration Closes September 19th</p>
                     </div>
                     <div class="flex-row justify-center items-center">
-                        <div class="countdown__wrapper flex-col justify-center items-center">
-                            <p id="days" class="text-3xl">000</p>
+                        <div class="countdown__wrapper--small flex-col justify-center items-center">
+                            <p id="days" class="text-xl">000</p>
                             <h3 id="dayslabel" class="text-xs text-center">Days</h3>
                         </div>
-                        <div class="countdown__wrapper flex-col justify-center items-center">
-                            <p id="hours" class="text-3xl">000</p>
+                        <div class="countdown__wrapper--small flex-col justify-center items-center">
+                            <p id="hours" class="text-xl">000</p>
                             <h3 id="hourslabel" class="text-xs text-center">Hours</h3>
                         </div>
-                        <div class="countdown__wrapper flex-col justify-center items-center">
-                            <p id="minutes" class="text-3xl">000</p>
+                        <div class="countdown__wrapper--small flex-col justify-center items-center">
+                            <p id="minutes" class="text-xl">000</p>
                             <h3 id="minuteslabel" class="text-xs text-center">Minutes</h3>
                         </div>
-                        <div class="countdown__wrapper flex-col justify-center items-center">
-                            <p id="seconds" class="text-3xl">000</p>
+                        <div class="countdown__wrapper--small flex-col justify-center items-center">
+                            <p id="seconds" class="text-xl">000</p>
                             <h3 id="secondslabel" class="text-xs text-center">Seconds</h3>
                         </div>
                     </div>
